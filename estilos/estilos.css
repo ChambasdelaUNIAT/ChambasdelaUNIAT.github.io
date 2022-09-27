@@ -1,0 +1,59 @@
+.u-contenedor{
+	width: 800px;
+	margin:  0 auto; /*Centrado*/
+}
+.u-titulos{
+	border-bottom: 1px solid blue;
+	color: blue;
+	font-weight: normal;
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 0.2em;
+}
+.Header {
+	margin-top: 4em;
+	background-image: url('../img/fondos/header.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 0.1em;
+}
+.MenuPrincipal{
+	background: #1C1C1C;
+	text-align: center;
+	height:  3em; /* un em corresponde al tamaño de la fuente que se indica en el estilo general, en este caso a normalize */
+	position:  fixed; /* Fijamos el menu para que sea siempre visible */
+	/* Vamos a usar todo el ancho del navegador */
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.MenuPrincipal-lista{
+	margin: 0;
+	padding: 0;
+}
+.MenuPrincipal-objeto{
+	display: inline-block;
+}
+.MenuPrincipal-liga{
+	color: tomato;
+	text-decoration: none;
+	line-height: 2.5em;  /*Centrar verticalmente el menu*/
+	margin-right: 3.5em; /*Separar opciones del menu a usar*/
+}
+.Header-contenedorImagen{
+	margin: 0;
+}
+.Imagen-header{
+	border: 0.2em solid blue;
+	border-radius: 25%;
+}
+.Imagen-descripcion{
+	color: magenta;
+	font-size: 3em;
+}
+.MemesG-title{
+	color: tomato;
+	font-weight: unset;
+}

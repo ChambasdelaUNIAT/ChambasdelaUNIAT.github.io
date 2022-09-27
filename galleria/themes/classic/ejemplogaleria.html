@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Memes, todos">
+	<meta name="author" content="UNIAT - WEB">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<head>
+		<title>Secretaría de Memes</title>
+		<link rel="stylesheet" href="estilos/estilos.css">
+		<link rel="stylesheet" href="estilos/normalize.css">
+		<link href="img/iconos/tab.ico" rel="shortcut icon" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+
+      #galleria{
+      	height: 200px;
+      }
+
+    </style>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="../../galleria-1.4.2.min.js"></script>
+
+	</head>
+
+	<body >
+
+		<div id="galleria">
+			<img src="meme1.png">
+			<img src="meme2.png">
+		</div>	
+
+
+	<script>
+		//Cargar Galleria
+		Galleria.loadTheme('galleria.classic.js');
+		//Inicializar Galleria
+		Galleria.run('#galleria');
+	</script>
+	</body>
+</html>
